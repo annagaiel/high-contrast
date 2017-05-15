@@ -1,0 +1,103 @@
+form {
+  padding: 25px;
+}
+
+fieldset.radiogroup {
+  margin: 0;
+  padding: 0;
+  border: 0
+}
+
+fieldset.radiogroup legend {
+  font-size: 18px;
+  color: #434343;
+  margin-bottom: 17px;
+  font-weight: normal;
+  margin-top: 0
+}
+
+.hide,
+.hidden {
+  position: absolute;
+  width: 0;
+  overflow: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.formRow {
+  clear: both;
+  margin: 0 0 9px 0;
+  display: block
+}
+
+.formRow label,
+.formRow span.label {
+  display: inline-block;
+  padding: 0 3px 2px 0
+}
+
+input[type=radio] {
+  margin: 9px 1px 10px 0;
+  padding: 0;
+  opacity: 0;
+  width: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+button,
+input {
+  line-height: normal;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+input[type=radio]+label {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.formRow label,
+.formRow span.label {
+  display: inline-block;
+  padding: 0 3px 2px 0;
+}
+
+input[type=radio]+label:before {
+  display: inline-block;
+  content: url(https://image.ibb.co/dXStQk/radio_initial_21x21.png);
+  line-height: 22px;
+  width: 33px;
+  position: relative;
+  top: 4px;
+}
+
+input[type=radio]:checked+label:before {
+  content: url(https://image.ibb.co/jfK7kk/radio_selected_21x21.png);
+  position: relative;
+  top: 4px
+}
+
+input[type=radio]:focus+label {
+  outline: 1px solid #a5c7fe
+}

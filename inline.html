@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>inline radio</title>
+    <link rel="stylesheet" type="text/css" href="css/inline-style.css">
+  </head>
+  <body>
+    <form>
+      <fieldset class="radiogroup" aria-required="true">
+        <legend>What is your gender?</legend>
+        <div class="formRow">
+          <input type="radio" name="gender" id="male" class="hidden" />
+          <div class="clipwrapper">
+            <img src="https://image.ibb.co/nbya5k/radiobuttons.png" class="clip pos-1" />
+          </div>
+          <label for="male">Male</label>
+        </div>
+        <br/>
+        <div class="formRow">
+          <input type="radio" name="gender" id="female" class="hidden" />
+          <div class="clipwrapper">
+            <img src="https://image.ibb.co/nbya5k/radiobuttons.png" class="clip pos-1" />
+          </div>
+          <label for="female">Female</label>
+        </div>
+        <br/>
+        <div class="formRow">
+          <input type="radio" name="gender" id="notsay" class="hidden" />
+          <div class="clipwrapper">
+            <img src="https://image.ibb.co/nbya5k/radiobuttons.png" class="clip pos-1" />
+          </div>
+          <label for="notsay">Prefer not to say</label>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="js/inline.js"></script> 
+</html>

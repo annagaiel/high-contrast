@@ -1,0 +1,68 @@
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+form {
+  padding: 25px;
+}
+
+.formRow {
+  display: inline-block;
+  padding: 0 15px 15px 0;
+}
+
+fieldset.radiogroup legend {
+  font-size: 18px;
+  color: #434343;
+  margin-bottom: 17px;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+fieldset.radiogroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.hidden {
+  position: absolute;
+  width: 0;
+  overflow: hidden;
+  height: 0;
+  line-height: 0;
+  z-index: -1;
+}
+
+label {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 5px 10px 5px 30px;
+}
+
+input[type=radio]:focus + .clipwrapper + label {
+  outline: 1px solid #a5c7fe
+}
+
+.clipwrapper {
+  position: relative;
+}
+
+.clip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pos-1 {
+  clip: rect(0px 21px 21px 0px);
+}
+
+.pos-2 {
+  clip: rect(0px 42px 21px 21px);
+  left: -21px;
+}

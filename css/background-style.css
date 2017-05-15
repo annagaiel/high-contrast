@@ -1,0 +1,60 @@
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+form {
+  padding: 25px;
+}
+
+input[type=radio].default {
+  display: inline-block!important;
+}
+
+input[type=radio].sprite {
+  display: block;
+  position: relative;
+  z-index: -1;
+  left: 3px;
+  top: 15px;
+}
+
+input[type=radio] + label.custom {
+  display: inline-block;
+  cursor: pointer;
+  width: 42px;
+  height: 0px;
+  background-image: url(https://image.ibb.co/hV0dbQ/vertical.png);
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+input[type=radio]:checked + label.custom {
+  background-position: 0 -21px;
+}
+
+input[type=radio]:focus +label {
+  outline: 1px solid #a5c7fe;
+}
+
+label {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 11px 0px 10px 30px;
+}
+
+p {
+  margin-top: -10px;
+}
